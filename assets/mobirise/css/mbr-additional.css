@@ -7874,31 +7874,31 @@ a {
     object-fit: cover;
   }
 }
-.cid-uHAiJfX2we {
+.cid-uHAncaWOZc {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #edefeb;
 }
-.cid-uHAiJfX2we img,
-.cid-uHAiJfX2we .item-img {
+.cid-uHAncaWOZc img,
+.cid-uHAncaWOZc .item-img {
   width: 100%;
   height: 100%;
   height: 300px;
   object-fit: cover;
 }
-.cid-uHAiJfX2we .item:focus,
-.cid-uHAiJfX2we span:focus {
+.cid-uHAncaWOZc .item:focus,
+.cid-uHAncaWOZc span:focus {
   outline: none;
 }
-.cid-uHAiJfX2we .item {
+.cid-uHAncaWOZc .item {
   margin-bottom: 2rem;
 }
 @media (max-width: 767px) {
-  .cid-uHAiJfX2we .item {
+  .cid-uHAncaWOZc .item {
     margin-bottom: 1rem;
   }
 }
-.cid-uHAiJfX2we .item-content {
+.cid-uHAncaWOZc .item-content {
   margin-top: 2rem;
   padding: 0 2.25rem 2.25rem;
   display: flex;
@@ -7906,42 +7906,42 @@ a {
   height: 100%;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-  .cid-uHAiJfX2we .item-content {
+  .cid-uHAncaWOZc .item-content {
     padding: 2rem 1.5rem;
     padding-top: 1rem;
     margin-top: 1rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-uHAiJfX2we .item-content {
+  .cid-uHAncaWOZc .item-content {
     padding: 2rem 1.5rem;
     padding-top: 1rem;
     margin-top: 1rem;
   }
 }
-.cid-uHAiJfX2we .item-wrapper {
+.cid-uHAncaWOZc .item-wrapper {
   position: relative;
   background: #ffffff;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
-.cid-uHAiJfX2we .item-wrapper .item-footer {
+.cid-uHAncaWOZc .item-wrapper .item-footer {
   margin-top: auto;
 }
-.cid-uHAiJfX2we .mbr-section-title {
+.cid-uHAncaWOZc .mbr-section-title {
   color: #000000;
 }
-.cid-uHAiJfX2we .item-title {
+.cid-uHAncaWOZc .item-title {
   text-align: left;
 }
-.cid-uHAiJfX2we .item-subtitle {
+.cid-uHAncaWOZc .item-subtitle {
   text-align: left;
 }
-.cid-uHAiJfX2we .mbr-text,
-.cid-uHAiJfX2we .item .mbr-section-btn {
+.cid-uHAncaWOZc .mbr-text,
+.cid-uHAncaWOZc .item .mbr-section-btn {
   text-align: left;
 }
-.cid-uHAiJfX2we .content-head {
+.cid-uHAncaWOZc .content-head {
   max-width: 800px;
 }
