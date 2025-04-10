@@ -8408,9 +8408,9 @@ a {
   color: #ffffff;
 }
 .cid-uHWYlGyeC9 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #3827f7;
 }
 .cid-uHWYlGyeC9 .mbr-section {
   text-align: center;
@@ -8418,4 +8418,7 @@ a {
 }
 .cid-uHWYlGyeC9 .block-title {
   color: #3827f7;
+}
+.cid-uHWYlGyeC9 P {
+  color: #f92c50;
 }
