@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page15.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -68,7 +68,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 172,
+    "uniqCompNum": 173,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -9071,9 +9071,9 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Audio Player</title>\n    <style>\n        /* Customize the audio player */\n        audio {\n            width: 300px;\n            outline: none;\n        }\n    </style>\n</head>\n<body>\n    <h1>My Audio Player</h1>\n    <audio controls>\n        <source src=\"YOUR_AUDIO_FILE_URL\" type=\"audio/mpeg\">\n        Your browser does not support the audio element.\n    </audio>\n</body>\n</html>",
-          "_cid": "uHXN6utG1H",
-          "_anchor": "custom-html-4r",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Automatic Audio Player</title>\n</head>\n<body>\n    <h1>K. D. Nice Audio Player</h1>\n    <!-- Audio player with autoplay enabled -->\n    <audio controls autoplay>\n        <source src=\"https://youtu.be/itaFYNNlOkc?si=jWc6yGVvoxVYLMfv\" type=\"audio/mpeg\">\n        Your browser does not support the audio element.\n    </audio>\n</body>\n</html>",
+          "_cid": "uHXUx9KZOk",
+          "_anchor": "custom-html-4s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
