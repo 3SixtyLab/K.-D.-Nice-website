@@ -6482,7 +6482,8 @@
       "settings": {
         "title": "K. D. Nice Music",
         "order": "4",
-        "meta_descr": "Purchase Songs"
+        "meta_descr": "Purchase Songs",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-0158.jpg-894x888.jpg"
       },
       "components": [
         {
