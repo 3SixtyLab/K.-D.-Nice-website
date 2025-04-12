@@ -7141,9 +7141,13 @@ a {
   text-align: center;
 }
 .cid-tJGEoKGifq {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/mbr-880x1173.jpg");
+}
+.cid-tJGEoKGifq .mbr-overlay {
+  background: #fafafa;
+  opacity: 0.1;
 }
 .cid-tJGEoKGifq img,
 .cid-tJGEoKGifq .item-img {
@@ -7180,7 +7184,7 @@ a {
 .cid-tJGEoKGifq .item-wrapper {
   position: relative;
   border-radius: 2rem;
-  background: #f7f7f7;
+  background: #ffa600;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
