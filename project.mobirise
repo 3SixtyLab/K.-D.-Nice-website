@@ -68,7 +68,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 230,
+    "uniqCompNum": 231,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -12843,13 +12843,13 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">&lt;div style=\"position: relative; width: 100%; height: 0; padding-top: 56.2500%;<div>&nbsp;padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;</div><div>&nbsp;border-radius: 8px; will-change: transform;\"&gt;</div><div>&nbsp; &lt;iframe loading=\"lazy\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;\"</div><div>&nbsp; &nbsp; src=\"https://www.canva.com/design/DAGlEqLlLQs/CRxtWsvmRxRG8-ND3gf9Zg/watch?embed\" allowfullscreen=\"allowfullscreen\" allow=\"fullscreen\"&gt;</div><div>&nbsp; &lt;/iframe&gt;</div><div>&lt;/div&gt;</div><div>&lt;a href=\"https:&amp;#x2F;&amp;#x2F;www.canva.com&amp;#x2F;design&amp;#x2F;DAGlEqLlLQs&amp;#x2F;CRxtWsvmRxRG8-ND3gf9Zg&amp;#x2F;watch?utm_content=DAGlEqLlLQs&amp;amp;utm_campaign=designshare&amp;amp;utm_medium=embeds&amp;amp;utm_source=link\" target=\"_blank\" rel=\"noopener\"&gt;K. D. Nice Music&lt;/a&gt; by Prince Backman</div></h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "uIOFMvlB1t",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"1\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#d70081\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-3 col-md-3\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<a href=\"https://www.canva.com/design/DAGlEqLlLQs/rqgaA3vL4YPpGS_nSsKiPg/edit?utm_content=DAGlEqLlLQs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\"><img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/deltapi.svg\" alt></a>\n            </div>\n        </div>\n    </div>\n</section><div style=\"position: relative; width: 100%; height: 0; padding-top: 56.2500%;\n padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;\n border-radius: 8px; will-change: transform;\">\n  <iframe loading=\"lazy\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;\" src=\"https://www.canva.com/design/DAGlEqLlLQs/CRxtWsvmRxRG8-ND3gf9Zg/watch?embed\" allowfullscreen=\"allowfullscreen\" allow=\"fullscreen\">\n  </iframe>\n</div>\n<a href=\"https://www.canva.com/design/DAGlEqLlLQs/CRxtWsvmRxRG8-ND3gf9Zg/watch?utm_content=DAGlEqLlLQs&utm_campaign=designshare&utm_medium=embeds&utm_source=link\" target=\"_blank\" rel=\"noopener\">K. D. Nice Music</a> by Prince Backman",
+          "_cid": "uIOGdlwYdB",
+          "_anchor": "custom-html-6e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "custom-html-6d"
+          "_params": {}
         }
       ]
     }
