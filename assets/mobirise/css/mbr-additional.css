@@ -11212,14 +11212,17 @@ a {
   color: #ffffff;
 }
 .cid-uIV9apYaJD {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #3678b2;
 }
 .cid-uIV9apYaJD .mbr-section {
   text-align: center;
   color: #fff;
 }
 .cid-uIV9apYaJD H1 {
+  color: #f92c50;
+}
+.cid-uIV9apYaJD P {
   color: #f92c50;
 }
