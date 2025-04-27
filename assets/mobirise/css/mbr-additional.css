@@ -2357,7 +2357,7 @@ a {
   background: #000000;
 }
 .cid-uJv0wKzENS .card3 {
-  background: #ffa600;
+  background: #3d6abd;
 }
 .cid-uJv0wKzENS .card4 {
   background: #2e481a;
@@ -2422,7 +2422,7 @@ a {
   color: #f7f7f7;
 }
 .cid-uJv0wKzENS .tag3 {
-  background: #ffa600;
+  background: #3d6abd;
   color: #393193;
   text-align: right;
 }
@@ -2682,12 +2682,7 @@ a {
   }
 }
 .cid-tIsjhWS5IM .item-wrapper {
-  height: 100%;
   position: relative;
-}
-.cid-tIsjhWS5IM .item-wrapper img {
-  height: 100%;
-  object-fit: cover;
 }
 .cid-tIsjhWS5IM .item-wrapper .icon-wrapper {
   pointer-events: none;
