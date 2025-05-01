@@ -4973,11 +4973,14 @@ a {
   }
 }
 .cid-uJXAy3oPAM {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 0px;
   background-color: #000000;
 }
 .cid-uJXAy3oPAM .mbr-section {
   text-align: center;
   color: #fff;
+}
+.cid-uJXAy3oPAM .block-title {
+  color: #cbbc5a;
 }
