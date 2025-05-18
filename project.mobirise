@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page19.html",
+    "currentPage": "page15.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -13665,7 +13665,8 @@
     "page15.html": {
       "settings": {
         "title": "Archive.org  Library Audio Player",
-        "order": "12"
+        "order": "12",
+        "meta_image": "@PROJECT_PATH@/assets/images/k-d-nice-archive.org.png-76x86.png"
       },
       "components": [
         {
