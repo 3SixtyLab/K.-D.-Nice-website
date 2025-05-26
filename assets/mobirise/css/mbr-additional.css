@@ -14430,6 +14430,14 @@ a {
     padding: 1rem;
   }
 }
+.cid-uMegxfHPXQ {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #edefeb;
+}
+.cid-uMegxfHPXQ .content-head {
+  max-width: 800px;
+}
 .cid-uLVAD5lqy5 {
   padding-top: 9rem;
   padding-bottom: 0rem;
@@ -14510,9 +14518,6 @@ a {
 .cid-uLXed6x0kj img,
 .cid-uLXed6x0kj .item-img {
   width: 100%;
-  height: 100%;
-  height: 500px;
-  object-fit: cover;
 }
 .cid-uLXed6x0kj .item:focus,
 .cid-uLXed6x0kj span:focus {
