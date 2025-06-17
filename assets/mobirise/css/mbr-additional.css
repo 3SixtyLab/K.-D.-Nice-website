@@ -7230,16 +7230,13 @@ a {
   }
 }
 .cid-uOpbDDvody {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #edefeb;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffc091;
 }
 .cid-uOpbDDvody img,
 .cid-uOpbDDvody .item-img {
   width: 100%;
-  height: 100%;
-  height: 300px;
-  object-fit: cover;
 }
 .cid-uOpbDDvody .item:focus,
 .cid-uOpbDDvody span:focus {
@@ -7276,7 +7273,7 @@ a {
 }
 .cid-uOpbDDvody .item-wrapper {
   position: relative;
-  background: #ffffff;
+  background: #ffa600;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
