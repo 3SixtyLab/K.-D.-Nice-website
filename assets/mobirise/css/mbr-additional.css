@@ -6570,7 +6570,11 @@ a {
 .cid-uOpbDDvody {
   padding-top: 2rem;
   padding-bottom: 0rem;
-  background-color: #afcf9a;
+  background-image: url("../../../assets/images/img-2211-647x647.jpg");
+}
+.cid-uOpbDDvody .mbr-overlay {
+  background: #ffffff;
+  opacity: 0;
 }
 .cid-uOpbDDvody img,
 .cid-uOpbDDvody .item-img {
@@ -6611,7 +6615,7 @@ a {
 }
 .cid-uOpbDDvody .item-wrapper {
   position: relative;
-  background: #a6a99c;
+  background: #bddda9;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
