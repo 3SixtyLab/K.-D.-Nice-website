@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page20.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -59,7 +59,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 208,
+    "uniqCompNum": 209,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -4912,8 +4912,9 @@
     },
     "page4.html": {
       "settings": {
-        "title": "Music Player K. D. Nice Songs",
-        "order": "23"
+        "title": "Music Player One",
+        "order": "23",
+        "meta_image": "@PROJECT_PATH@/assets/images/music-playe5r-logo.png-647x751.png"
       },
       "components": [
         {
@@ -15255,7 +15256,7 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-2 col-md-2\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"></h2>\n\t\t\t\t<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/img-2211-647x647.jpg\" alt>\n            </div>\n        </div>\n    </div>\n</section>\n<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#260a30\">\n    <!-- End block parameters -->\n  </mbr-parameters>\n\n  <div class=\"container\">\n    <div class=\"media-container-row\">\n      <div class=\"mbr-text col-12 col-md-12\">\n        <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">K. D. Nice Digital Music Player</h2>\n        <!-- Make sure this path points to your hosted image -->\n        <img class=\"my-image\" src alt=\"DeltaPi Logo\">\n      </div>\n    </div>\n  </div>\n</section>\n\n<div style=\"display: flex; align-items: center; gap: 20px; flex-wrap: wrap; font-family: sans-serif;\">\n  <!-- Album Art -->\n  <img src=\"https://archive.org/download/01-all-in/__ia_thumb.jpg\" alt=\"Album Art\" style=\"width:100px; height:100px; border-radius: 8px;\">\n\n  <!-- Audio Player: note the <source> is inside the <audio> -->\n  <audio controls style=\"height: 40px;\">\n    <source src=\"https://archive.org/download/01-all-in/01%20All%20In.mp3\" type=\"audio/mp3\">\n    <source src=\"https://archive.org/download/02-Stick-W-Me/02%20Stick%20W20%Me.mp3\" type=\"audio/mp3\">\n    Your browser does not support the audio element.\n  </audio>\n  <!-- Payhip Buy Button -->\n  <a href=\"https://payhip.com/b/Ey2aK\" target=\"_blank\" style=\"background-color: #1e90ff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">\n    Buy on Payhip\n  </a>\n\n  <!-- Return to KDNice.com Button -->\n  <a href=\"https://kdnice.com\" style=\"background-color: #444; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">\n    Return to KDNice.com\n  </a>\n</div>\n\n  \n\n ",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-2 col-md-2\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"></h2>\n\t\t\t\t<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/img-2211-647x647.jpg\" alt>\n            </div>\n        </div>\n    </div>\n</section>\n<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#260a30\">\n    <!-- End block parameters -->\n  </mbr-parameters>\n\n  <div class=\"container\">\n    <div class=\"media-container-row\">\n      <div class=\"mbr-text col-12 col-md-12\">\n        <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">K. D. Nice Digital Music Player</h2>\n        <!-- Make sure this path points to your hosted image -->\n        <img class=\"my-image\" src alt=\"DeltaPi Logo\">\n      </div>\n    </div>\n  </div>\n</section>\n\n<div style=\"display: flex; align-items: center; gap: 20px; flex-wrap: wrap; font-family: sans-serif;\">\n  <!-- Album Art -->\n  <img src=\"https://archive.org/download/01-all-in/__ia_thumb.jpg\" alt=\"Album Art\" style=\"width:100px; height:100px; border-radius: 8px;\">\n\n  <!-- Audio Player: note the <source> is inside the <audio> -->\n  <audio controls style=\"height: 40px;\">\n    <source src=\"https://archive.org/download/01-all-in/01%20All%20In.mp3\" type=\"audio/mp3\">\n    <source src=\"https://archive.org/download/02-Stick-W-Me/02%20Stick%20W20%Me.mp3\" type=\"audio/mp3\">\n    Your browser does not support the audio element.\n  </audio>\n  <!-- Payhip Buy Button -->\n  <a href=\"https://payhip.com/b/Ey2aK\" target=\"_blank\" style=\"background-color: #1e90ff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">\n    Buy on Payhip\n  </a>\n\n  <!-- Return to KDNice.com Button -->\n  <a href=\"https://kdnice.com\" style=\"background-color: #444; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">\n    Return to KDNice.com\n  </a>\n</div>",
           "_cid": "uKTis1LG2x",
           "_anchor": "custom-html-26",
           "_protectedParams": [],
@@ -20109,6 +20110,121 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"pricing02\" group=\"Pricing\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n    <select title=\"Columns\" name=\"cardsWidth\">\n      <option value=\"12\">1</option>\n      <option value=\"6\">2</option>\n      <option value=\"4\">3</option>\n      <option value=\"3\" selected>4</option>\n    </select>\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n    <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n    <input type=\"checkbox\" name=\"showmainButtons\" title=\"Buttons\">\n    <header>Cards</header>\n    <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n    <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n    <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n    <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n    <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Price\" checked>\n    <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n    <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n    <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#2b7134\">\n    <header>Background</header>\n    <fieldset type=\"background\" parallax name=\"bg\" required>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n      <input type=\"color\" title=\"Color\" value=\"#1f6463\" selected>\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type == 'image'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type == 'image'\">\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 content-head\">\n        <div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle || showmainButton\">\n          <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            <b>Our Products</b>\n          </h4>\n          <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-head .mbr-section-btn\">\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n          </h5>\n          <div class=\"mbr-section-btn align-center item-footer mb-0 mt-4\" mbr-if=\"showmainButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n            <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Get Started</a>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <a href=\"https://youtu.be/qcgAOStscfw?si=FPElDhW20Y0HDYPP\"><img src=\"@PROJECT_PATH@/assets/images/img-2213.jpg-1179x1119.jpg\" alt=\"Mobirise Website Builder\"></a>\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b><a href=\"https://youtu.be/qcgAOStscfw?si=FPElDhW20Y0HDYPP\" class=\"text-primary\"></a><a href=\"https://youtu.be/qcgAOStscfw?si=Q_a0UgyRaXKRMVYD\" class=\"text-primary\"></a><a href=\"https://youtu.be/qcgAOStscfw?si=Q_a0UgyRaXKRMVYD\" class=\"text-primary\">The Kid Laroi ft.</a> K D Nice</b></h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $4.68</h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\"><a href=\"https://youtu.be/qcgAOStscfw?si=FPElDhW20Y0HDYPP\" class=\"text-primary\">Stick W Me</a></p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://payhip.com/b/2ZFM1\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-2332-816x820.jpg\" alt=\"Mobirise Website Builder\">\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n              <b>Promotion</b>\n            </h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $1.25</h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\">Stand</p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://payhip.com/b/qAwQP\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n        </div>\n      </div>\n      <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-2744-596x596.jpg\" alt=\"Mobirise Website Builder\">\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n              <b>Branding</b>\n            </h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $10.00\n            </h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\">\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit habitant turpis.<br>\n            </p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n        </div>\n      </div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <a href=\"https://youtu.be/YU2T99-ryFo\"><img src=\"@PROJECT_PATH@/assets/images/img-2377.jpg-596x596.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"3\" data-bs-slide-to=\"4\"></a>\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b><a href=\"https://youtu.be/YU2T99-ryFo\" class=\"text-primary\">Smooth Entertainer</a></b></h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $10.00\n            </h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\">K D Nice</p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://payhip.com/b/8Bz5a\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
           "_anchor": "pricing02-4y",
           "_cid": "uNULTL2FFx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "margin-bottom": "2rem"
+            },
+            "@media (max-width: 767px)": {
+              ".item": {
+                "margin-bottom": "1rem"
+              }
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-content": {
+              "margin-top": "2rem",
+              "padding": "0 2.25rem 2.25rem",
+              "@media (min-width: 992px) and (max-width: 1200px)": {
+                "padding": "2rem 1.5rem",
+                "padding-top": "1rem",
+                "margin-top": "1rem"
+              },
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem",
+                "padding-top": "1rem",
+                "margin-top": "1rem"
+              },
+              "display": "flex",
+              "flex-direction": "column",
+              "height": "100%"
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              ".item-footer": {
+                "margin-top": "auto"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left"
+            },
+            ".mbr-text, .item .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#320707"
+            },
+            ".content-head": {
+              "max-width": "800px"
+            }
+          },
+          "_name": "pricing02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"pricing02\" group=\"Pricing\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n    <select title=\"Columns\" name=\"cardsWidth\">\n      <option value=\"12\">1</option>\n      <option value=\"6\">2</option>\n      <option value=\"4\">3</option>\n      <option value=\"3\" selected>4</option>\n    </select>\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n    <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n    <input type=\"checkbox\" name=\"showmainButtons\" title=\"Buttons\">\n    <header>Cards</header>\n    <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n    <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n    <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n    <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n    <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Price\" checked>\n    <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n    <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n    <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#2b7134\">\n    <header>Background</header>\n    <fieldset type=\"background\" parallax name=\"bg\" required>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n      <input type=\"color\" title=\"Color\" value=\"#1f6463\" selected>\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type == 'image'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type == 'image'\">\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 content-head\">\n        <div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle || showmainButton\">\n          <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            <b>Our Products</b>\n          </h4>\n          <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-head .mbr-section-btn\">\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n          </h5>\n          <div class=\"mbr-section-btn align-center item-footer mb-0 mt-4\" mbr-if=\"showmainButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n            <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Get Started</a>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <a href=\"https://youtu.be/qcgAOStscfw?si=FPElDhW20Y0HDYPP\"><img src=\"@PROJECT_PATH@/assets/images/img-2213.jpg-1179x1119.jpg\" alt=\"Mobirise Website Builder\"></a>\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b><a href=\"https://youtu.be/qcgAOStscfw?si=FPElDhW20Y0HDYPP\" class=\"text-primary\"></a><a href=\"https://youtu.be/qcgAOStscfw?si=Q_a0UgyRaXKRMVYD\" class=\"text-primary\"></a><a href=\"https://youtu.be/qcgAOStscfw?si=Q_a0UgyRaXKRMVYD\" class=\"text-primary\">The Kid Laroi ft.</a> K D Nice</b></h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $4.68</h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\"><a href=\"https://youtu.be/qcgAOStscfw?si=FPElDhW20Y0HDYPP\" class=\"text-primary\">Stick W Me</a></p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://payhip.com/b/2ZFM1\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-2332-816x820.jpg\" alt=\"Mobirise Website Builder\">\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n              <b>Promotion</b>\n            </h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $1.25</h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\">Stand</p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://payhip.com/b/qAwQP\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n        </div>\n      </div>\n      <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <a href=\"https://youtube.com/shorts/aHj_2Kp3m6Y?si=-g_ToasYEzZIrve6\"><img src=\"@PROJECT_PATH@/assets/images/img-0783.jpg-637x612.jpg\" alt=\"Mobirise Website Builder\"></a>\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>Am I Still Good (Main)</b></h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $1.10</h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\"></p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://payhip.com/b/SitZK\">Buy Now</a></div>\n          </div>\n        </div>\n      </div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n        <div class=\"item-wrapper\">\n          <div class=\"item-img\">\n            <a href=\"https://youtu.be/YU2T99-ryFo\"><img src=\"@PROJECT_PATH@/assets/images/img-2377.jpg-596x596.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"3\" data-bs-slide-to=\"4\"></a>\n          </div>\n          <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n            <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b><a href=\"https://youtu.be/YU2T99-ryFo\" class=\"text-primary\">Smooth Entertainer</a></b></h5>\n            <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n              $10.00\n            </h6>\n            <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .item .mbr-section-btn\">K D Nice</p>\n            <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://payhip.com/b/8Bz5a\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_anchor": "pricing02-5s",
+          "_cid": "uRHRDKOwOE",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
