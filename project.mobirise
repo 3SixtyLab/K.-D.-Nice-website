@@ -1657,7 +1657,7 @@
             },
             ".item-subtitle": {
               "line-height": "1.2",
-              "color": "#ffaac7"
+              "color": "#f92c50"
             },
             "img, .item-img": {
               "width": "100%",
