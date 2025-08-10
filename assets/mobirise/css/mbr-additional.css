@@ -20314,7 +20314,7 @@ a {
   transform: translateY(-10px);
 }
 .cid-tIsi3HZcCy .card1 {
-  background: #ffaac7;
+  background: #ffa600;
 }
 .cid-tIsi3HZcCy .card2 {
   background: #008063;
@@ -20377,7 +20377,7 @@ a {
   padding: 0.5rem 1rem;
 }
 .cid-tIsi3HZcCy .tag1 {
-  background: #ffaac7;
+  background: #ffa600;
   color: #502274;
 }
 .cid-tIsi3HZcCy .tag2 {
@@ -20513,7 +20513,6 @@ a {
 .cid-tIsjhWS5IM {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #008063;
 }
 .cid-tIsjhWS5IM .mbr-fallback-image.disabled {
   display: none;
@@ -20526,6 +20525,7 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/screenshot-2025-08-10-at-4.48.47pm.png-1198x1208.png");
 }
 .cid-tIsjhWS5IM .item {
   padding-bottom: 2rem;
