@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page31.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -59,7 +59,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 214,
+    "uniqCompNum": 217,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -1531,7 +1531,7 @@
           },
           "_name": "features03",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features03\" group=\"Features\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<select title=\"Columns\" name=\"cardsWidth\">\n\t\t\t<option value=\"12\">1</option>\n\t\t\t<option value=\"6\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"3\" selected>4</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n\t\t<input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"4\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n\t\t<input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n\t\t<input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\">\n\t\t<input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#6c1ec5\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>My Blog</b></h4>\n\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mt-4 mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\tTo add more cards, hover on a card and click 'Add items'\n\t\t\t</h5>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://kdnice.wordpress.com/2025/08/16/a-boogiewit-the-hoodie/\"><img src=\"@PROJECT_PATH@/assets/images/img-3117-637x625.jpg\" alt=\"Mobirise Website Builder\" title></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Bringing inanimate objects to captivating life</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Stop motion animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t20 may, 20 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"page8.html\"><img src=\"@PROJECT_PATH@/assets/images/screenshot-2025-05-04-at-8.37.08am.png-259x252.png\" alt=\"Mobirise Website Builder\" title data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Enhancing mood and aesthetics with color manipulation</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Color Grading</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"page4.html\"><img src=\"@PROJECT_PATH@/assets/images/img-885-637x637.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Crafting immersive visuals and engaging worlds</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>3D Animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://amzn.to/44duZjX\"><img src=\"@PROJECT_PATH@/assets/images/amazon-music-logo.jpg-262x316.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features03\" group=\"Features\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<select title=\"Columns\" name=\"cardsWidth\">\n\t\t\t<option value=\"12\">1</option>\n\t\t\t<option value=\"6\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"3\" selected>4</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n\t\t<input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"4\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n\t\t<input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n\t\t<input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\">\n\t\t<input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#6c1ec5\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>My Blog</b></h4>\n\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mt-4 mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\tTo add more cards, hover on a card and click 'Add items'\n\t\t\t</h5>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://kdnice.wordpress.com/2025/08/16/a-boogiewit-the-hoodie/\"><img src=\"@PROJECT_PATH@/assets/images/img-3117-637x625.jpg\" alt=\"Mobirise Website Builder\" title></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Bringing inanimate objects to captivating life</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Stop motion animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t20 may, 20 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"page8.html\"><img src=\"@PROJECT_PATH@/assets/images/screenshot-2025-05-04-at-8.37.08am.png-259x252.png\" alt=\"Mobirise Website Builder\" title data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Enhancing mood and aesthetics with color manipulation</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Color Grading</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"page4.html\"><img src=\"@PROJECT_PATH@/assets/images/img-885-637x637.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Crafting immersive visuals and engaging worlds</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>3D Animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://amzn.to/44duZjX\"><img src=\"@PROJECT_PATH@/assets/images/amazon-music-logo.jpg-262x316.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_anchor": "features03-55",
           "_cid": "uOLAKbPdTM",
           "_protectedParams": [],
@@ -1828,7 +1828,7 @@
           },
           "_name": "features03",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features03\" group=\"Features\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<select title=\"Columns\" name=\"cardsWidth\">\n\t\t\t<option value=\"12\">1</option>\n\t\t\t<option value=\"6\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"3\" selected>4</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n\t\t<input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"4\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n\t\t<input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n\t\t<input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\">\n\t\t<input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#6c1ec5\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>My Blog</b></h4>\n\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mt-4 mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\tTo add more cards, hover on a card and click 'Add items'\n\t\t\t</h5>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://youtube.com/shorts/_-h1v4_S81U?si=E7bH5vwPN04jpGt4\"><img src=\"@PROJECT_PATH@/assets/images/img-2713-637x654.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Bringing inanimate objects to captivating life</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Stop motion animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t20 may, 20 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://payhip.com/b/4Fp3W\"><img src=\"@PROJECT_PATH@/assets/images/img-168-637x356.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Enhancing mood and aesthetics with color manipulation</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Color Grading</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://payhip.com/b/sWFlL\">Buy</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://payhip.com/b/K7EiD\"><img src=\"@PROJECT_PATH@/assets/images/img-2920.jpg-637x637.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Enhancing mood and aesthetics with color manipulation</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Color Grading</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://payhip.com/b/K7EiD\">Buy</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/img-1800.png-1024x1536.png\" alt=\"Mobirise Website Builder\" title data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Crafting immersive visuals and engaging worlds</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>3D Animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/the-art-of-connection/?preview=true&preview_id=5&preview_nonce=537a63dc47\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">Blog #2</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://search.app/WrAD9GPQwY5Kz3t46\"><img src=\"@PROJECT_PATH@/assets/images/blog2.jpg-637x636.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"4\" data-bs-slide-to=\"4\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/teamwork-triumphs/\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">The Kid Laroi Blog</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"http://ttps://kdnice.wordpress.com/2025/07/20/miley-cyrus/\"><img src=\"@PROJECT_PATH@/assets/images/miley-blog.jpg-1179x2358.jpg\" alt=\"Mobirise Website Builder\" title data-slide-to=\"5\" data-bs-slide-to=\"5\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/teamwork-triumphs/\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">The Kid Laroi Blog</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features03\" group=\"Features\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<select title=\"Columns\" name=\"cardsWidth\">\n\t\t\t<option value=\"12\">1</option>\n\t\t\t<option value=\"6\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"3\" selected=\"\">4</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n\t\t<input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"4\" condition=\"autoSize &amp;&amp; !(showButtons==false &amp;&amp; showCardSubtitle==false &amp;&amp; showCardTitle==false &amp;&amp; showText==false)\">\n\t\t<input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n\t\t<input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\">\n\t\t<input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked=\"\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#6c1ec5\" selected=\"\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>My Blog</b></h4>\n\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mt-4 mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\tTo add more cards, hover on a card and click 'Add items'\n\t\t\t</h5>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://youtube.com/shorts/_-h1v4_S81U?si=E7bH5vwPN04jpGt4\"><img src=\"@PROJECT_PATH@/assets/images/img-2713-637x654.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Bringing inanimate objects to captivating life</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Stop motion animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t20 may, 20 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"\" class=\"btn item-btn btn-warning-outline\" data-app-placeholder=\"Type Text\">read more</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://payhip.com/b/4Fp3W\"><img src=\"@PROJECT_PATH@/assets/images/img-168-637x356.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Enhancing mood and aesthetics with color manipulation</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Color Grading</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://payhip.com/b/sWFlL\">Buy</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://payhip.com/b/K7EiD\"><img src=\"@PROJECT_PATH@/assets/images/img-2920.jpg-637x637.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Enhancing mood and aesthetics with color manipulation</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Color Grading</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://payhip.com/b/K7EiD\">Buy</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/img-1800.png-1024x1536.png\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Crafting immersive visuals and engaging worlds</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>3D Animation</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t27 may, 25 min<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/the-art-of-connection/?preview=true&amp;preview_id=5&amp;preview_nonce=537a63dc47\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">Blog #2</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://search.app/WrAD9GPQwY5Kz3t46\"><img src=\"@PROJECT_PATH@/assets/images/blog2.jpg-637x636.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"4\" data-bs-slide-to=\"4\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/teamwork-triumphs/\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">The Kid Laroi Blog</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"http://ttps://kdnice.wordpress.com/2025/07/20/miley-cyrus/\"><img src=\"@PROJECT_PATH@/assets/images/miley-blog.jpg-1179x2358.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"5\" data-bs-slide-to=\"5\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/teamwork-triumphs/\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">The Kid Laroi Blog</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://kdnice.wordpress.com/2025/08/21/percee-p/\"><img src=\"@PROJECT_PATH@/assets/images/img-1338.jpg-1170x1173.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"6\" data-bs-slide-to=\"6\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/teamwork-triumphs/\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">The Kid Laroi Blog</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"item-img mb-3\">\n\t\t\t\t\t\t<a href=\"https://kdnice.wordpress.com/2025/08/21/percee-p/\"><img src=\"@PROJECT_PATH@/assets/images/img-3117.jpg-4107x4032.jpg\" alt=\"Mobirise Website Builder\" title=\"\" data-slide-to=\"7\" data-bs-slide-to=\"7\"></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n\t\t\t\t\t\t<h5 class=\"item-title mbr-fonts-style mb-3 mt-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">Stunning effects for an enhanced visual experience</h5>\n\t\t\t\t\t\t<h6 class=\"item-subtitle mbr-fonts-style mt-0 mb-3\" mbr-theme-style=\"display-5\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><b>Visual Effects</b></h6>\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t22 may, 18 min\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"https://kdnice.wordpress.com/2025/04/01/teamwork-triumphs/\" class=\"btn item-btn btn-secondary\" data-app-placeholder=\"Type Text\">The Kid Laroi Blog</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_anchor": "features03-56",
           "_cid": "uOLCEN3Xxu",
           "_protectedParams": [],
@@ -29049,6 +29049,785 @@
           "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#60d514\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-6 col-md-6\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/img-2996-3-1179x699.jpg\" alt>\n            </div>\n        </div>\n    </div>\n</section><div style=\"position: relative; width: 100%; height: 0; padding-top: 59.9561%;\n padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;\n border-radius: 8px; will-change: transform;\">\n  <iframe loading=\"lazy\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;\" src=\"https://www.canva.com/design/DAGlF4wGQhA/A1hQg2mYv4UTgsOPMZYjJQ/view?embed\" allowfullscreen=\"allowfullscreen\" allow=\"fullscreen\">\n  </iframe>\n</div>\n<a href=\"https://www.canva.com/design/DAGlF4wGQhA/A1hQg2mYv4UTgsOPMZYjJQ/view?utm_content=DAGlF4wGQhA&utm_campaign=designshare&utm_medium=embeds&utm_source=link\" target=\"_blank\" rel=\"noopener\">K. D. NICE MUSI C STORE</a> by Prince Backman",
           "_cid": "uSxvDB5hUz",
           "_anchor": "custom-html-5w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page31.html": {
+      "settings": {
+        "title": "Page 31",
+        "order": "1"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "z-index": "1000",
+            "width": "100%",
+            "position": "relative",
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            "@media (max-width: 767px)": {
+              ".navbar-toggler": {
+                "transform": "scale(0.8)"
+              }
+            },
+            ".navbar-brand": {
+              "img": {
+                "max-width": "100%",
+                "max-height": "100%",
+                "border-radius": "0px !important"
+              },
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".navbar-nav": {
+              "margin": "auto",
+              "margin-left": "0",
+              "& when (@contentAlign = '2')": {
+                "margin-left": "auto"
+              },
+              "& when (@contentAlign = '3')": {
+                "margin-left": "auto",
+                "margin-right": "0"
+              },
+              ".nav-item": {
+                "padding": "0 !important",
+                "transition": ".3s all !important",
+                ".nav-link": {
+                  "padding": "16px !important",
+                  "margin": "0 !important",
+                  "border-radius": "1rem !important",
+                  "transition": ".3s all !important",
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  },
+                  "& when not (@isRoundedButtons)": {
+                    "border-radius": "4px !important"
+                  }
+                }
+              },
+              ".open": {
+                ".nav-link": {
+                  "&::after": {
+                    "transform": "rotate(180deg)"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&::before": {
+                      "content": "\"\"",
+                      "width": "100%",
+                      "height": "20px",
+                      "top": "100%",
+                      "background": "transparent",
+                      "position": "absolute"
+                    }
+                  }
+                }
+              },
+              ".dropdown-item": {
+                "padding": "12px !important",
+                "border-radius": "0.5rem !important",
+                "margin": "0 8px !important",
+                "transition": ".3s all !important",
+                "&:hover": {
+                  "background-color": "rgba(27, 31, 10, 0.06)"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              "& when not (@showLogo), (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              },
+              "& when not (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              }
+            },
+            ".nav-link": {
+              "width": "fit-content",
+              "position": "relative"
+            },
+            ".navbar-logo": {
+              "padding-left": "2rem",
+              "margin": "0 !important",
+              "@media (max-width: 767px)": {
+                "padding-left": "1rem"
+              }
+            },
+            ".navbar-caption": {
+              "padding-left": "1rem",
+              "padding-right": ".5rem",
+              "& when not (@showLogo)": {
+                "@media (min-width: 767px)": {
+                  "padding-left": "2rem"
+                }
+              }
+            },
+            ".nav-dropdown": {
+              "@media (max-width: 767px)": {
+                "padding-bottom": "0.5rem"
+              }
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "transition": ".3s all"
+            },
+            ".container": {
+              "display": "flex",
+              "height": "90px",
+              "padding": "0.5rem 0.6rem",
+              "flex-wrap": "nowrap",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {},
+                "& when (@transparent)": {
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                }
+              },
+              "left": "0",
+              "right": "0",
+              "-webkit-box-pack": "justify",
+              "-ms-flex-pack": "justify",
+              "justify-content": "flex-end",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "border-radius": "100vw",
+              "margin-top": "1rem",
+              "background-color": "@menuBgColor",
+              "box-shadow": "0 30px 60px 0 rgba(27, 31, 10, 0.08)",
+              "@media (max-width: 992px)": {
+                "padding-right": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "width": "95%",
+                "height": "56px !important",
+                "padding-right": "1rem",
+                "margin-top": "0rem"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu": {
+              "flex-wrap": "wrap",
+              "flex-direction": "column",
+              "max-width": "100%",
+              "padding": "12px 4px !important",
+              "border-radius": "1.5rem",
+              "transition": ".3s all !important",
+              "min-width": "auto",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "90px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "background": "transparent !important",
+              "&:not(.navbar-short)": {},
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "1",
+                "justify-content": "flex-end"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem !important"
+                  }
+                },
+                "min-height": "72px"
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {}
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "10px"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem"
+                  }
+                }
+              },
+              "padding": "0 !important",
+              "border": "none !important",
+              "box-shadow": "none !important",
+              "border-radius": "0 !important"
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "105%",
+                  "transform": "none",
+                  "top": "-12px"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "flex"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "140px",
+              "@media (max-width: 992px)": {
+                "text-align": "left"
+              }
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem"
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "@media (max-width: 992px)": {
+                "justify-content": "flex-start",
+                "margin-bottom": ".5rem"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".navbar .dropdown > .dropdown-menu": {
+              "display": "none",
+              "width": "max-content",
+              "max-width": "500px !important",
+              "transform": "translateX(-50%)",
+              "top": "calc(~'100% + 20px')",
+              "left": "50%",
+              ".dropdown-item": {
+                "line-height": "1 !important"
+              },
+              ".dropdown": {
+                ".dropdown-item": {
+                  "align-items": "center",
+                  "display": "flex",
+                  "height": "max-content !important",
+                  "min-height": "max-content !important",
+                  "&::after": {
+                    "display": "inline-block",
+                    "position": "static",
+                    "margin-left": "0.5rem",
+                    "margin-top": "0",
+                    "margin-right": "0",
+                    "margin-bottom": "0",
+                    "transition": ".3s all",
+                    "transform": "rotate(-90deg)"
+                  }
+                }
+              },
+              ".dropdown.open": {
+                ".dropdown-item": {
+                  "&::after": {
+                    "transform": "rotate(0deg)"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin": "-0.6rem -0.6rem"
+            },
+            ".navbar-toggler": {
+              "margin-left": "12px",
+              "margin-right": "8px",
+              "order": "1000"
+            },
+            "& when (@collapsed)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "opacity": "1",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "@media (max-width: 575px)": {
+                  "padding": "1rem"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "display": "none",
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "0.5rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "0.5rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              },
+              ".navbar .dropdown > .dropdown-submenu.show": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "opacity": "1",
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "1rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "1rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex !important",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            ".navbar-collapse": {
+              "@media (max-width: 575px)": {
+                "padding": "1rem"
+              }
+            }
+          },
+          "_name": "menu01",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\t<mbr-parameters>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1\" max=\"1\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<select title=\"Menu Items Align\" name=\"contentAlign\" condition=\"showItems\">\n\t\t\t<option value=\"1\" selected>Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n\t\t<select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Styles</header>\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"none\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"transparent\">\n\t\t<input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#c7ceaf\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#a6a99c\">\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"https://mobiri.se\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-0158.jpg-884x878.jpg\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Home</a></span>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Amazon Affiliates Store</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Video &amp; Music Player</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">K D Nice Songs<br>Music Player</a>\n\t\t\t\t\t</li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GoHard Radio</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page6.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Socai media</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page7.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Releases</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page8.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Apple Music<br>Playlist</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page9.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Press Play</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page11.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Make Donation</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page12.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TopMusicAttorney</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">To<br>Blog</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-cart-full mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 44, 80);\"></span>ToTee Shirt Store</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://kdnice.wordpress.com/about/k-d-tee-shirt-store/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">K D Nice Web Store<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page13.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Audio Gallery</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page15.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Archive.org<br>Audio<br>Library<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page23.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-play mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 44, 80);\"></span>Apple Music&nbsp;<br>Styations<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://youtu.be/u7WmeajxS_Q?si=uEaZf0PW6xLd84fH\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Audio<br>Player 3</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://youtu.be/qcgAOStscfw?si=Q_a0UgyRaXKRMVYD\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">K D Nice<br>Audio<br>Player</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page19.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">K D Nice Amazon</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page21.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Page 21</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page29.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Nicky Minaj</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page27.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Rihanna<br>Videos</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://zeno.fm/radio/gohard-radio-3sixtylab/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">OldSchool Hip Hop Forum</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"page28.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Youtube<br>Videos</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://kdnice.wordpress.com/2025/04/01/adaptive-advantage/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Both sides Of The Bars</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://kdnice.wordpress.com/2025/04/01/growth-unlocked/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Chandler Juliet</a></li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-shopping-cart mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://amzn.to/3SvXcLX\">Amazon Affiliates Store</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_cid": "uLzfD7Y04p",
+          "_anchor": "menu01-5y",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section>\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Professional Audio Player</title>\n    <script src=\"https://cdn.tailwindcss.com\"></script>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');\n        \n        body {\n            font-family: 'Inter', sans-serif;\n        }\n        \n        .progress-bar {\n            background: linear-gradient(90deg, #3b82f6 0%, #1d4ed8 100%);\n        }\n        \n        .volume-slider::-webkit-slider-thumb {\n            appearance: none;\n            width: 16px;\n            height: 16px;\n            border-radius: 50%;\n            background: #3b82f6;\n            cursor: pointer;\n            border: 2px solid white;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.2);\n        }\n        \n        .volume-slider::-moz-range-thumb {\n            width: 16px;\n            height: 16px;\n            border-radius: 50%;\n            background: #3b82f6;\n            cursor: pointer;\n            border: 2px solid white;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.2);\n        }\n        \n        .animate-spin-slow {\n            animation: spin 3s linear infinite;\n        }\n        \n        @keyframes spin {\n            from { transform: rotate(0deg); }\n            to { transform: rotate(360deg); }\n        }\n        \n        .demo-badge {\n            background: linear-gradient(45deg, #f59e0b, #d97706);\n        }\n        \n        .custom-button {\n            transition: all 0.3s ease;\n        }\n        \n        .custom-button:hover {\n            transform: translateY(-2px);\n            box-shadow: 0 8px 25px rgba(0,0,0,0.3);\n        }\n        \n        .paypal-button {\n            background: linear-gradient(45deg, #0070ba, #003087);\n        }\n        \n        .paypal-button:hover {\n            background: linear-gradient(45deg, #005ea6, #002c7a);\n        }\n        \n        .download-button {\n            background: linear-gradient(45deg, #10b981, #059669);\n        }\n        \n        .download-button:hover {\n            background: linear-gradient(45deg, #0d9488, #047857);\n        }\n        \n        .modal {\n            backdrop-filter: blur(10px);\n        }\n    </style>\n</head>\n<body class=\"bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen flex items-center justify-center p-4\">\n    <!-- Demo Badge -->\n    <div class=\"fixed top-4 right-4 demo-badge text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg\">\n        🎵 Demo Player\n    </div>\n    \n    <div class=\"bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-white/20 max-w-lg w-full\">\n        <!-- Album Art -->\n        <div class=\"relative mb-6\">\n            <div class=\"w-64 h-64 mx-auto rounded-2xl bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center shadow-xl\" id=\"albumArt\">\n                <svg class=\"w-24 h-24 text-white/80\" id=\"musicIcon\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z\"/>\n                </svg>\n            </div>\n            <div class=\"absolute inset-0 rounded-2xl bg-black/20 flex items-center justify-center opacity-0 transition-opacity duration-300\" id=\"playOverlay\">\n                <div class=\"w-16 h-16 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm\">\n                    <svg class=\"w-8 h-8 text-white ml-1\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M8 5v14l11-7z\"/>\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Song Info -->\n        <div class=\"text-center mb-6\">\n            <h2 class=\"text-xl font-semibold text-white mb-1\" id=\"songTitle\">Midnight Dreams</h2>\n            <p class=\"text-white/70\" id=\"artistName\">Luna & The Stars</p>\n        </div>\n        \n        <!-- Progress Bar -->\n        <div class=\"mb-6\">\n            <div class=\"flex items-center justify-between text-sm text-white/70 mb-2\">\n                <span id=\"currentTime\">0:00</span>\n                <span id=\"totalTime\">3:42</span>\n            </div>\n            <div class=\"relative\">\n                <div class=\"h-2 bg-white/20 rounded-full overflow-hidden\">\n                    <div class=\"h-full progress-bar rounded-full transition-all duration-300\" id=\"progressBar\" style=\"width: 0%\"></div>\n                </div>\n                <input type=\"range\" min=\"0\" max=\"100\" value=\"0\" class=\"absolute inset-0 w-full h-2 opacity-0 cursor-pointer\" id=\"progressSlider\">\n            </div>\n        </div>\n        \n        <!-- Controls -->\n        <div class=\"flex items-center justify-center space-x-6 mb-6\">\n            <button class=\"w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors\" id=\"prevBtn\">\n                <svg class=\"w-6 h-6 text-white\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M6 6h2v12H6zm3.5 6l8.5 6V6z\"/>\n                </svg>\n            </button>\n            \n            <button class=\"w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors shadow-lg\" id=\"playPauseBtn\">\n                <svg class=\"w-8 h-8 text-white ml-1\" id=\"playIcon\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M8 5v14l11-7z\"/>\n                </svg>\n                <svg class=\"w-8 h-8 text-white hidden\" id=\"pauseIcon\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M6 19h4V5H6v14zm8-14v14h4V5h-4z\"/>\n                </svg>\n            </button>\n            \n            <button class=\"w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors\" id=\"nextBtn\">\n                <svg class=\"w-6 h-6 text-white\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z\"/>\n                </svg>\n            </button>\n        </div>\n        \n        <!-- Volume Control -->\n        <div class=\"flex items-center space-x-3 mb-6\">\n            <svg class=\"w-5 h-5 text-white/70\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path d=\"M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z\"/>\n            </svg>\n            <input type=\"range\" min=\"0\" max=\"100\" value=\"75\" class=\"flex-1 h-2 bg-white/20 rounded-full appearance-none volume-slider\" id=\"volumeSlider\">\n            <span class=\"text-white/70 text-sm w-8\" id=\"volumeDisplay\">75%</span>\n        </div>\n        \n        <!-- Download Section -->\n        <div class=\"mb-6\">\n            <h3 class=\"text-white font-medium mb-3 text-center\">Downloads</h3>\n            <div class=\"grid grid-cols-3 gap-3\">\n                <button class=\"download-button custom-button text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center justify-center space-x-2\" onclick=\"downloadFile('mp3')\">\n                    <svg class=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z\"/>\n                    </svg>\n                    <span>MP3</span>\n                </button>\n                <button class=\"download-button custom-button text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center justify-center space-x-2\" onclick=\"downloadFile('wav')\">\n                    <svg class=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z\"/>\n                    </svg>\n                    <span>WAV</span>\n                </button>\n                <button class=\"download-button custom-button text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center justify-center space-x-2\" onclick=\"downloadFile('artwork')\">\n                    <svg class=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M8.5,13.5L11,16.5L14.5,12L19,18H5M21,19V5C21,3.89 20.1,3 19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19Z\"/>\n                    </svg>\n                    <span>Art</span>\n                </button>\n            </div>\n        </div>\n        \n        <!-- PayPal Section -->\n        <div class=\"mb-6\">\n            <h3 class=\"text-white font-medium mb-3 text-center\">Support the Artist</h3>\n            <div class=\"flex space-x-3\">\n                <button class=\"paypal-button custom-button text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 flex-1\" onclick=\"openPayPal('tip')\">\n                    <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.175-.041.26-.93 4.778-4.005 7.201-9.138 7.201h-2.19a.75.75 0 0 0-.741.638l-1.481 9.378a.641.641 0 0 0 .633.74h5.48c.524 0 .968-.382 1.05-.9l.048-.302 1.04-6.593.067-.365a1.05 1.05 0 0 1 1.049-.9h.661c3.85 0 6.859-1.56 7.743-6.079.369-1.892.177-3.473-.861-4.537z\"/>\n                    </svg>\n                    <span>Tip Artist</span>\n                </button>\n                <button class=\"paypal-button custom-button text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 flex-1\" onclick=\"openPayPal('buy')\">\n                    <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12L8.1 13h7.45c.75 0 1.41-.41 1.75-1.03L21.7 4H5.21l-.94-2H1zm16 16c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z\"/>\n                    </svg>\n                    <span>Buy Track</span>\n                </button>\n            </div>\n        </div>\n        \n        <!-- Custom Links Section -->\n        <div class=\"mb-4\">\n            <h3 class=\"text-white font-medium mb-3 text-center\">Connect & Stream</h3>\n            <div class=\"grid grid-cols-2 gap-3\" id=\"customLinksContainer\">\n                <!-- Default links -->\n                <button class=\"bg-gradient-to-r from-pink-500 to-rose-500 custom-button text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2\" onclick=\"openLink('https://music.apple.com')\">\n                    <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z\"/>\n                    </svg>\n                    <span>Apple Music</span>\n                </button>\n                <button class=\"bg-gradient-to-r from-green-500 to-green-600 custom-button text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2\" onclick=\"openLink('https://spotify.com')\">\n                    <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.563.387-.857.207-2.348-1.435-5.304-1.76-8.785-.964-.335.077-.67-.133-.746-.47-.077-.334.132-.67.47-.745 3.809-.871 7.077-.496 9.713 1.115.293.18.386.563.206.857zm1.223-2.723c-.226.367-.706.482-1.072.257-2.687-1.652-6.785-2.131-9.965-1.166-.413.125-.849-.106-.973-.517-.125-.413.106-.849.517-.973 3.632-1.102 8.147-.568 11.234 1.328.366.226.481.707.256 1.072zm.105-2.835C14.692 8.95 9.375 8.775 6.297 9.71c-.493.15-1.016-.128-1.166-.62-.149-.493.129-1.016.621-1.166 3.532-1.073 9.404-.865 13.115 1.338.445.264.590.837.327 1.282-.264.444-.838.590-1.282.326z\"/>\n                    </svg>\n                    <span>Spotify</span>\n                </button>\n                <button class=\"bg-gradient-to-r from-blue-600 to-blue-700 custom-button text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2\" onclick=\"openLink('https://yourwebsite.com')\">\n                    <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M10.59,13.41C11,13.8 11,14.4 10.59,14.81C10.2,15.2 9.6,15.2 9.19,14.81L7.77,13.39L7.77,13.39L6.36,12L7.77,10.61L9.19,9.19C9.6,8.8 10.2,8.8 10.59,9.19C11,9.6 11,10.2 10.59,10.61L10.24,11L10.59,11.39C11,11.8 11,12.4 10.59,12.81M14.83,21.19L16.24,19.78L17.66,18.36L16.24,16.95L14.83,15.54C14.42,15.13 14.42,14.53 14.83,14.12C15.24,13.71 15.84,13.71 16.25,14.12L17.66,15.54L19.07,16.95L17.66,18.36L16.24,19.78C15.83,20.19 15.23,20.19 14.82,19.78C14.41,19.37 14.41,18.77 14.82,18.36M21,7H3A2,2 0 0,0 1,9V15A2,2 0 0,0 3,17H21A2,2 0 0,0 23,15V9A2,2 0 0,0 21,7Z\"/>\n                    </svg>\n                    <span>My Website</span>\n                </button>\n                <button class=\"bg-gradient-to-r from-purple-600 to-purple-700 custom-button text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2\" onclick=\"openCustomLinkModal()\">\n                    <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                        <path d=\"M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z\"/>\n                    </svg>\n                    <span>Add Link</span>\n                </button>\n            </div>\n        </div>\n    </div>\n\n    <!-- Custom Link Modal -->\n    <div id=\"customLinkModal\" class=\"fixed inset-0 bg-black/50 modal hidden flex items-center justify-center p-4 z-50\">\n        <div class=\"bg-white/10 backdrop-blur-lg rounded-2xl p-6 max-w-md w-full border border-white/20\">\n            <h3 class=\"text-xl font-semibold text-white mb-4\">Add Custom Link</h3>\n            <div class=\"space-y-4\">\n                <div>\n                    <label class=\"block text-white/70 text-sm mb-2\">Button Text</label>\n                    <input type=\"text\" id=\"linkText\" placeholder=\"e.g., YouTube, SoundCloud\" class=\"w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:border-blue-400\">\n                </div>\n                <div>\n                    <label class=\"block text-white/70 text-sm mb-2\">Link URL</label>\n                    <input type=\"url\" id=\"linkUrl\" placeholder=\"https://example.com\" class=\"w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:border-blue-400\">\n                </div>\n                <div>\n                    <label class=\"block text-white/70 text-sm mb-2\">Logo URL (optional)</label>\n                    <input type=\"url\" id=\"logoUrl\" placeholder=\"https://example.com/logo.png\" class=\"w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:border-blue-400\">\n                </div>\n                <div>\n                    <label class=\"block text-white/70 text-sm mb-2\">Button Color</label>\n                    <select id=\"buttonColor\" class=\"w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:border-blue-400\">\n                        <option value=\"from-red-500 to-red-600\">Red</option>\n                        <option value=\"from-blue-500 to-blue-600\">Blue</option>\n                        <option value=\"from-green-500 to-green-600\">Green</option>\n                        <option value=\"from-purple-500 to-purple-600\">Purple</option>\n                        <option value=\"from-yellow-500 to-yellow-600\">Yellow</option>\n                        <option value=\"from-pink-500 to-pink-600\">Pink</option>\n                        <option value=\"from-indigo-500 to-indigo-600\">Indigo</option>\n                        <option value=\"from-gray-500 to-gray-600\">Gray</option>\n                    </select>\n                </div>\n            </div>\n            <div class=\"flex space-x-3 mt-6\">\n                <button onclick=\"closeCustomLinkModal()\" class=\"flex-1 px-4 py-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors\">Cancel</button>\n                <button onclick=\"addCustomLink()\" class=\"flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors\">Add Link</button>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        let isPlaying = false;\n        let currentProgress = 0;\n        let currentVolume = 75;\n        \n        const playPauseBtn = document.getElementById('playPauseBtn');\n        const playIcon = document.getElementById('playIcon');\n        const pauseIcon = document.getElementById('pauseIcon');\n        const progressBar = document.getElementById('progressBar');\n        const progressSlider = document.getElementById('progressSlider');\n        const currentTimeDisplay = document.getElementById('currentTime');\n        const volumeSlider = document.getElementById('volumeSlider');\n        const volumeDisplay = document.getElementById('volumeDisplay');\n        const albumArt = document.getElementById('albumArt');\n        const musicIcon = document.getElementById('musicIcon');\n        const playOverlay = document.getElementById('playOverlay');\n        \n        // Play/Pause functionality\n        playPauseBtn.addEventListener('click', () => {\n            isPlaying = !isPlaying;\n            \n            if (isPlaying) {\n                playIcon.classList.add('hidden');\n                pauseIcon.classList.remove('hidden');\n                musicIcon.classList.add('animate-spin-slow');\n                startProgress();\n            } else {\n                playIcon.classList.remove('hidden');\n                pauseIcon.classList.add('hidden');\n                musicIcon.classList.remove('animate-spin-slow');\n                stopProgress();\n            }\n        });\n        \n        // Progress simulation\n        let progressInterval;\n        \n        function startProgress() {\n            progressInterval = setInterval(() => {\n                if (currentProgress < 100) {\n                    currentProgress += 0.5;\n                    updateProgress();\n                } else {\n                    // Song ended\n                    isPlaying = false;\n                    currentProgress = 0;\n                    playIcon.classList.remove('hidden');\n                    pauseIcon.classList.add('hidden');\n                    musicIcon.classList.remove('animate-spin-slow');\n                    updateProgress();\n                    clearInterval(progressInterval);\n                }\n            }, 100);\n        }\n        \n        function stopProgress() {\n            clearInterval(progressInterval);\n        }\n        \n        function updateProgress() {\n            progressBar.style.width = currentProgress + '%';\n            progressSlider.value = currentProgress;\n            \n            // Update time display\n            const totalSeconds = 222; // 3:42 in seconds\n            const currentSeconds = Math.floor((currentProgress / 100) * totalSeconds);\n            const minutes = Math.floor(currentSeconds / 60);\n            const seconds = currentSeconds % 60;\n            currentTimeDisplay.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;\n        }\n        \n        // Manual progress control\n        progressSlider.addEventListener('input', (e) => {\n            currentProgress = parseFloat(e.target.value);\n            updateProgress();\n        });\n        \n        // Volume control\n        volumeSlider.addEventListener('input', (e) => {\n            currentVolume = parseInt(e.target.value);\n            volumeDisplay.textContent = currentVolume + '%';\n        });\n        \n        // Previous/Next buttons\n        document.getElementById('prevBtn').addEventListener('click', () => {\n            currentProgress = 0;\n            updateProgress();\n            document.getElementById('songTitle').textContent = 'Starlight Serenade';\n            document.getElementById('artistName').textContent = 'Cosmic Melody';\n        });\n        \n        document.getElementById('nextBtn').addEventListener('click', () => {\n            currentProgress = 0;\n            updateProgress();\n            document.getElementById('songTitle').textContent = 'Ocean Waves';\n            document.getElementById('artistName').textContent = 'Nature Sounds';\n        });\n        \n        // Album art hover effect\n        albumArt.addEventListener('mouseenter', () => {\n            if (!isPlaying) {\n                playOverlay.style.opacity = '1';\n            }\n        });\n        \n        albumArt.addEventListener('mouseleave', () => {\n            playOverlay.style.opacity = '0';\n        });\n        \n        albumArt.addEventListener('click', () => {\n            playPauseBtn.click();\n        });\n        \n        // Download functionality\n        function downloadFile(type) {\n            let filename, content, mimeType;\n            \n            if (type === 'mp3') {\n                filename = 'midnight-dreams.mp3';\n                content = 'Sample MP3 audio file content';\n                mimeType = 'audio/mpeg';\n            } else if (type === 'wav') {\n                filename = 'midnight-dreams.wav';\n                content = 'Sample WAV audio file content';\n                mimeType = 'audio/wav';\n            } else if (type === 'artwork') {\n                filename = 'midnight-dreams-artwork.jpg';\n                content = 'Sample artwork image content';\n                mimeType = 'image/jpeg';\n            }\n            \n            const blob = new Blob([content], { type: mimeType });\n            const url = URL.createObjectURL(blob);\n            const a = document.createElement('a');\n            a.href = url;\n            a.download = filename;\n            document.body.appendChild(a);\n            a.click();\n            document.body.removeChild(a);\n            URL.revokeObjectURL(url);\n            \n            // Show success message\n            showNotification(`${type.toUpperCase()} download started!`);\n        }\n        \n        // PayPal functionality\n        function openPayPal(type) {\n            let paypalUrl;\n            if (type === 'tip') {\n                paypalUrl = 'https://www.paypal.com/donate/?hosted_button_id=YOUR_BUTTON_ID';\n            } else if (type === 'buy') {\n                paypalUrl = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YOUR_BUTTON_ID';\n            }\n            \n            window.open(paypalUrl, '_blank');\n            showNotification('Opening PayPal...');\n        }\n        \n        // Custom links functionality\n        function openLink(url) {\n            window.open(url, '_blank');\n            showNotification('Opening link...');\n        }\n        \n        function openCustomLinkModal() {\n            document.getElementById('customLinkModal').classList.remove('hidden');\n        }\n        \n        function closeCustomLinkModal() {\n            document.getElementById('customLinkModal').classList.add('hidden');\n            // Clear form\n            document.getElementById('linkText').value = '';\n            document.getElementById('linkUrl').value = '';\n            document.getElementById('logoUrl').value = '';\n        }\n        \n        function addCustomLink() {\n            const text = document.getElementById('linkText').value;\n            const url = document.getElementById('linkUrl').value;\n            const logoUrl = document.getElementById('logoUrl').value;\n            const color = document.getElementById('buttonColor').value;\n            \n            if (!text || !url) {\n                showNotification('Please fill in button text and URL');\n                return;\n            }\n            \n            const container = document.getElementById('customLinksContainer');\n            const addButton = container.querySelector('button:last-child');\n            \n            const newButton = document.createElement('button');\n            newButton.className = `bg-gradient-to-r ${color} custom-button text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2`;\n            newButton.onclick = () => openLink(url);\n            \n            let iconHtml;\n            if (logoUrl) {\n                iconHtml = `<img src=\"${logoUrl}\" alt=\"${text}\" class=\"w-5 h-5 rounded\" onerror=\"this.style.display='none';\">`;\n            } else {\n                iconHtml = `<svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M10.59,13.41C11,13.8 11,14.4 10.59,14.81C10.2,15.2 9.6,15.2 9.19,14.81L7.77,13.39L7.77,13.39L6.36,12L7.77,10.61L9.19,9.19C9.6,8.8 10.2,8.8 10.59,9.19C11,9.6 11,10.2 10.59,10.61L10.24,11L10.59,11.39C11,11.8 11,12.4 10.59,12.81M14.83,21.19L16.24,19.78L17.66,18.36L16.24,16.95L14.83,15.54C14.42,15.13 14.42,14.53 14.83,14.12C15.24,13.71 15.84,13.71 16.25,14.12L17.66,15.54L19.07,16.95L17.66,18.36L16.24,19.78C15.83,20.19 15.23,20.19 14.82,19.78C14.41,19.37 14.41,18.77 14.82,18.36M21,7H3A2,2 0 0,0 1,9V15A2,2 0 0,0 3,17H21A2,2 0 0,0 23,15V9A2,2 0 0,0 21,7Z\"/>\n                </svg>`;\n            }\n            \n            newButton.innerHTML = `${iconHtml}<span>${text}</span>`;\n            \n            container.insertBefore(newButton, addButton);\n            closeCustomLinkModal();\n            showNotification('Custom link added!');\n        }\n        \n        // Notification system\n        function showNotification(message) {\n            const notification = document.createElement('div');\n            notification.className = 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg z-50 transition-all duration-300';\n            notification.textContent = message;\n            \n            document.body.appendChild(notification);\n            \n            setTimeout(() => {\n                notification.style.opacity = '0';\n                notification.style.transform = 'translate(-50%, -20px)';\n                setTimeout(() => {\n                    document.body.removeChild(notification);\n                }, 300);\n            }, 2000);\n        }\n    </script>\n<script>(function(){function c(){var is a b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'976ed83c97b82363',t:'MTc1NjQ5OTgyOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n</html>\n",
+          "_cid": "uVizgb9Ulq",
+          "_anchor": "custom-html-60",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
