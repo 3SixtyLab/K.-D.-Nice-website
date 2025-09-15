@@ -31653,8 +31653,9 @@
     },
     "page35.html": {
       "settings": {
-        "title": "Page 35",
-        "order": "1"
+        "title": "GoHard Pop FM Radio",
+        "order": "1",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-1810-2.jpg-960x960.jpg"
       },
       "components": [
         {
