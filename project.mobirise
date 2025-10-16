@@ -34,13 +34,13 @@
       "nameSelectPreset": "creator",
       "presetSourceTheme": "startm5",
       "additionalSetColors": [
-        "#8a185e",
         "#821c5a",
         "#861a66",
         "#061a3e",
         "#186f95",
         "#60d514",
-        "#ba995c"
+        "#ba995c",
+        "#bddda9"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -32433,8 +32433,9 @@
     },
     "page36.html": {
       "settings": {
-        "title": "Page 36",
-        "order": "1"
+        "title": "Beats Store",
+        "order": "1",
+        "meta_image": "@PROJECT_PATH@/assets/images/aaaf6986-c953-4017-a636-93e14310c6d8-9667-000005ba67b6c560-1598x1600.jpg"
       },
       "components": [
         {
@@ -33200,29 +33201,7 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "uZO9qOptGx",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "custom-html-7e"
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#8a185e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"></h2>\n\t\t\t\t<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/rb-hip-hop-store-1446x1448.jpg\" alt>\n            </div>\n        </div>\n    </div>\n</section><section class=\"mbr-section article content1\" style=\"background-color:#861a66; padding:40px 0;\">\n  <div class=\"container\">\n    <h2 class=\"mbr-fonts-style display-2 text-center\" style=\"color:white; margin-bottom:40px;\">\n      R&amp;B Hip Hop Store\n    </h2>\n\n    <!-- 🎵 ROW 1 -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px;\">\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Nrfz2\"></div>\n      </div>\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"LKzAH\"></div>\n      </div>\n    </div>\n\n    <!-- 🎵 ROW 2 -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;\">\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Pdun3\"></div>\n      </div>\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"12eLc\"></div>\n      </div>\n    </div>\n\n    <!-- 🎵 ROW 3 (add more products here as needed) -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;\">\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"NEW_KEY_1\"></div>\n      </div>\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"NEW_KEY_2\"></div>\n      </div>\n    </div>\n\n    <!-- ⚙️ Script (only include once per page) -->\n    <script type=\"text/javascript\" src=\"https://payhip.com/embed-page.js?v=24u68984\"></script>\n  </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#8a185e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"></h2>\n\t\t\t\t<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/img-631-1448x1448.jpg\" alt>\n            </div>\n        </div>\n    </div>\n</section><section class=\"mbr-section article content1\" style=\"background-color:#861a66; padding:40px 0;\">\n  <div class=\"container\">\n    <h2 class=\"mbr-fonts-style display-2 text-center\" style=\"color:white; margin-bottom:40px;\">\n      R&amp;B Hip Hop Store\n    </h2>\n\n    <!-- 🎵 ROW 1 -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px;\">\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Nrfz2\"></div>\n      </div>\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"LKzAH\"></div>\n      </div>\n    </div>\n\n    <!-- 🎵 ROW 2 -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;\">\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Pdun3\"></div>\n      </div>\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"12eLc\"></div>\n      </div>\n    </div>\n\n    <!-- 🎵 ROW 3 (add more products here as needed) -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;\">\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"NEW_KEY_1\"></div>\n      </div>\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"NEW_KEY_2\"></div>\n      </div>\n    </div>\n\n    <!-- ⚙️ Script (only include once per page) -->\n    <script type=\"text/javascript\" src=\"https://payhip.com/embed-page.js?v=24u68984\"></script>\n  </div>\n</section>",
           "_cid": "uZO858qB7B",
           "_anchor": "custom-html-7d",
           "_protectedParams": [],
