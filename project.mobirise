@@ -33214,8 +33214,9 @@
     },
     "page36.html": {
       "settings": {
-        "title": "Page 36",
-        "order": "1"
+        "title": "K. D. Nice Youtube Videos",
+        "order": "1",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-3527.jpg-1179x1179.jpg"
       },
       "components": [
         {
