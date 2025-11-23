@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page37.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -59,7 +59,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 282,
+    "uniqCompNum": 283,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -33202,7 +33202,29 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#dd108b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"></h2>\n\t\t\t\t<a href=\"https://payhip.com/KDNiceDigitalMusicStore\"><img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/img-631-1448x1448.jpg\" alt></a>\n            </div>\n        </div>\n    </div>\n</section><section class=\"mbr-section article content1\" style=\"background-color:#d70081; padding:40px 0;\">\n  <div class=\"container\">\n    <h2 class=\"mbr-fonts-style display-2 text-center\" style=\"color:white; margin-bottom:40px;\">\n      R&amp;B Hip Hop Store\n    </h2>\n\n    <!-- 🎵 Sample Packs Grid -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px;\">\n\n      <!-- 🔹 Still Nice Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"K6ohv\"></div>\n      </div>\n\n      <!-- 🔹 Thunder Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"12eLc\"></div>\n      </div>\n\n      <!-- 🔹 Spider Jam Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Pdun3\"></div>\n      </div>\n\n      <!-- 🔹 Vinyl Effect Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"duKZm\"></div>\n      </div>\n\n      <!-- 🔹 Level Up Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Iil5c\"></div>\n      </div>\n\n      <!-- 🔹 Real #3 Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"sWFlL\"></div>\n      </div>\n\n      <!-- 🔹 Movie Theme One Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"K7EiD\"></div>\n      </div>\n\n      <!-- 🔹 Family Affair Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"ByQpP\"></div>\n      </div>\n\n      <!-- 🔹 Renegade Beat -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"f2c8P\"></div>\n      </div>\n\n      <!-- 🔹 Renegade Number Two Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"LKzAH\"></div>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- ⚙️ Include Payhip script only once at the bottom -->\n  <script type=\"text/javascript\" src=\"https://payhip.com/embed-page.js?v=24u68984\"></script>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "v3mNxQQjuB",
+          "_anchor": "custom-html-7u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#dd108b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"></h2>\n\t\t\t\t<a href=\"https://payhip.com/KDNiceDigitalMusicStore\"><img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/img-631-1448x1448.jpg\" alt></a>\n            </div>\n        </div>\n    </div>\n</section><section class=\"mbr-section article content1\" style=\"background-color:#d70081; padding:40px 0;\">\n  <div class=\"container\">\n    <h2 class=\"mbr-fonts-style display-2 text-center\" style=\"color:white; margin-bottom:40px;\">\n      R&amp;B Hip Hop Store\n    </h2>\n\n    <!-- 🎵 Sample Packs Grid -->\n    <div class=\"row text-center\" style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:20px;\">\n\n      <!-- 🔹 Still Nice Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"K6ohv\"></div>\n      </div>\n\n      <!-- 🔹 Thunder Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"12eLc\"></div>\n      </div>\n\n      <!-- 🔹 Spider Jam Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Pdun3\"></div>\n      </div>\n\n      <!-- 🔹 Vinyl Effect Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"duKZm\"></div>\n      </div>\n\n      <!-- 🔹 Level Up Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"Iil5c\"></div>\n      </div>\n\n      <!-- 🔹 Real #3 Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"sWFlL\"></div>\n      </div>\n\n      <!-- 🔹 Movie Theme One Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"K7EiD\"></div>\n      </div>\n\n      <!-- 🔹 Family Affair Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"ByQpP\"></div>\n      </div>\n\n      <!-- 🔹 Renegade Beat -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"f2c8P\"></div>\n      </div>\n\n      <!-- 🔹 Renegade Number Two Sample Pack -->\n      <div class=\"col-12 col-md-6\">\n        <div class=\"payhip-embed-page\" data-key=\"LKzAH\"></div>\n      </div>\n       <!-- 🔹 Complkete Drum Pack#1 -->\n<div class=\"payhip-embed-page\" data-key=\"MrGZF\">\n    </div>\n  </div>\n\n  <!-- ⚙️ Include Payhip script only once at the bottom -->\n  <script type=\"text/javascript\" src=\"https://payhip.com/embed-page.js?v=24u68984\"></script>\n</section>",
           "_cid": "uZYC6S1YuM",
           "_anchor": "custom-html-7l",
           "_protectedParams": [],
