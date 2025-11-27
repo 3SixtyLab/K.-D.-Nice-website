@@ -25962,9 +25962,8 @@ a {
   }
 }
 .cid-tJGs7X2OSn {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
-  background-color: #01d6d6;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 .cid-tJGs7X2OSn .mbr-fallback-image.disabled {
   display: none;
@@ -25977,6 +25976,7 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/tylorswift2.jpg-1-1139x1192.webp");
 }
 .cid-tJGs7X2OSn .image-wrap img {
   width: 100%;
@@ -26017,8 +26017,8 @@ a {
   text-align: center;
 }
 .cid-v3FqKgsB9p {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #01d6d6;
 }
 .cid-v3FqKgsB9p .mbr-fallback-image.disabled {
