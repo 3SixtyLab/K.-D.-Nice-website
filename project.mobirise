@@ -28,7 +28,7 @@
         "isGhostButtonBorder": true,
         "underlinedLinks": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "titlePreset": "Small Business",
       "nameSelectPreset": "small",
@@ -1622,7 +1622,8 @@
       "settings": {
         "title": "Elfsight YourPlay Gohard Audio Player",
         "order": "1",
-        "meta_descr": "Elfsight Hop Hop/R&B Audio Player"
+        "meta_descr": "Elfsight Hop Hop/R&B Audio Player",
+        "meta_image": "@PROJECT_PATH@/assets/images/elfsightaudioplayerlogo.jpg-1-784x1168.jpg"
       },
       "components": [
         {
@@ -2474,7 +2475,7 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2b540b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section><!-- Elfsight Audio Player | Your Play - ⏯️ - GoHard Radio  -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-6aade085-9274-43af-8256-db25cd490ebd\" data-elfsight-app-lazy></div>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2b540b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/elfsightaudioplayerlogo.jpg-784x1168.jpg\" alt>\n            </div>\n        </div>\n    </div>\n</section><!-- Elfsight Audio Player | Your Play - ⏯️ - GoHard Radio  -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-6aade085-9274-43af-8256-db25cd490ebd\" data-elfsight-app-lazy></div>",
           "_cid": "v3QSqlsKbp",
           "_anchor": "custom-html-d",
           "_protectedParams": [],

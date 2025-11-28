@@ -636,8 +636,8 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Manrope', sans-serif;
@@ -2505,8 +2505,8 @@ a {
   color: #ffffff;
 }
 .cid-v3QSqlsKbp {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #2b540b;
 }
 .cid-v3QSqlsKbp .mbr-section {
