@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page20.html",
+    "currentPage": "page43.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -59,7 +59,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 316,
+    "uniqCompNum": 320,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -39947,9 +39947,31 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section><iframe src=\"https://archive.org/embed/Madizm\" width=\"500\" height=\"30\" frameborder=\"0\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\" allowfullscreen=\"\"></iframe><iframe src=\"https://archive.org/embed/Madizm\" width=\"500\" height=\"30\" frameborder=\"0\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\" allowfullscreen></iframe>",
-          "_cid": "v43fy7NH2F",
-          "_anchor": "custom-html-8q",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "v49uQGGoF8",
+          "_anchor": "custom-html-8v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=\"../deltapi.svg\">\n            </div>\n        </div>\n    </div>\n</section><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>He’s So Fly - Madizm</title>\n  <style>\n    body {\n      font-family: 'Segoe UI', Arial, sans-serif;\n      background: #0f0f0f;\n      color: #fff;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      min-height: 100vh;\n      margin: 0;\n    }\n    .player {\n      background: #1a1a1a;\n      padding: 30px;\n      border-radius: 20px;\n      box-shadow: 0 15px 35px rgba(0,0,0,0.6);\n      width: 380px;\n      max-width: 90vw;\n    }\n    .track-info {\n      text-align: center;\n      margin-bottom: 20px;\n    }\n    .track-info h2 {\n      margin: 0;\n      font-size: 1.4em;\n    }\n    .track-info p {\n      margin: 5px 0 0;\n      color: #aaa;\n      font-size: 0.9em;\n    }\n    .cover {\n      width: 100%;\n      height: 280px;\n      background: url('https://archive.org/services/img/Madizm') center/cover no-repeat;\n      border-radius: 12px;\n      margin-bottom: 20px;\n      background-color: #333;\n    }\n    .controls {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 20px;\n      margin-bottom: 15px;\n    }\n    button {\n      background: none;\n      border: none;\n      color: #fff;\n      font-size: 2.5em;\n      cursor: pointer;\n      padding: 0;\n    }\n    button:hover { opacity: 0.7; }\n    .progress-container {\n      background: #333;\n      height: 6px;\n      border-radius: 3px;\n      margin: 15px 0;\n      cursor: pointer;\n      position: relative;\n    }\n    .progress {\n      background: #00ff9d;\n      width: 0%;\n      height: 100%;\n      border-radius: 3px;\n      transition: width 0.1s;\n    }\n    .time {\n      display: flex;\n      justify-content: space-between;\n      font-size: 0.85em;\n      color: #aaa;\n    }\n    .volume-container {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      margin-top: 10px;\n    }\n    .volume-container input {\n      flex: 1;\n    }\n    input[type=\"range\"] {\n      -webkit-appearance: none;\n      height: 6px;\n      background: #333;\n      border-radius: 3px;\n      outline: none;\n    }\n    input[type=\"range\"]::-webkit-slider-thumb {\n      -webkit-appearance: none;\n      width: 16px;\n      height: 16px;\n      background: #00ff9d;\n      border-radius: 50%;\n      cursor: pointer;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"player\">\n    <div class=\"track-info\">\n      <h2>He’s So Fly</h2>\n      <p>Madizm</p>\n    </div>\n\n    <div class=\"cover\"></div>\n\n    <div class=\"progress-container\" id=\"progressContainer\">\n      <div class=\"progress\" id=\"progress\"></div>\n    </div>\n    <div class=\"time\">\n      <span id=\"current\">0:00</span>\n      <span id=\"duration\">0:00</span>\n    </div>\n\n    <div class=\"controls\">\n      <button id=\"playPauseBtn\">▶</button>\n    </div>\n\n    <div class=\"volume-container\">\n      <span>🔊</span>\n      <input type=\"range\" min=\"0\" max=\"100\" value=\"80\" id=\"volume\">\n    </div>\n\n    <audio id=\"audio\" preload=\"metadata\">\n      <source src=\"https://dn721905.ca.archive.org/0/items/Madizm/He%E2%80%99s%20So%20Fly.mp3\" type=\"audio/mpeg\">\n      Your browser does not support the audio element.\n    </audio>\n  </div>\n\n  <script>\n    const audio = document.getElementById('audio');\n    const playPauseBtn = document.getElementById('playPauseBtn');\n    const progressContainer = document.getElementById('progressContainer');\n    const progress = document.getElementById('progress');\n    const currentTimeEl = document.getElementById('current');\n    const durationEl = document.getElementById('duration');\n    const volume = document.getElementById('volume');\n\n    let isPlaying = false;\n\n    // Play / Pause\n    playPauseBtn.addEventListener('click', () => {\n      if (isPlaying) {\n        audio.pause();\n      } else {\n        audio.play();\n      }\n    });\n\n    audio.addEventListener('play', () => {\n      playPauseBtn.textContent = '❚❚';\n      isPlaying = true;\n    });\n\n    audio.addEventListener('pause', () => {\n      playPauseBtn.textContent = '▶';\n      isPlaying = false;\n    });\n\n    // Update progress bar and time\n    audio.addEventListener('timeupdate', () => {\n      const percent = (audio.currentTime / audio.duration) * 100;\n      progress.style.width = percent + '%';\n\n      currentTimeEl.textContent = formatTime(audio.currentTime);\n      durationEl.textContent = formatTime(audio.duration);\n    });\n\n    // Seek\n    progressContainer.addEventListener('click', (e) => {\n      const width = progressContainer.clientWidth;\n      const clickX = e.offsetX;\n      audio.currentTime = (clickX / width) * audio.duration;\n    });\n\n    // Volume\n    volume.addEventListener('input', () => {\n      audio.volume = volume.value / 100;\n    });\n\n    // Format time helper\n    function formatTime(seconds) {\n      if (isNaN(seconds)) return '0:00';\n      const mins = Math.floor(seconds / 60);\n      const secs = Math.floor(seconds % 60);\n      return `${mins}:${secs < 10 ? '0' : ''}${secs}`;\n    }\n\n    // Load metadata to show duration immediately\n    audio.addEventListener('loadedmetadata', () => {\n      durationEl.textContent = formatTime(audio.duration);\n    });\n  </script>\n</body>\n</html>",
+          "_cid": "v49uOXwWy9",
+          "_anchor": "custom-html-8u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
