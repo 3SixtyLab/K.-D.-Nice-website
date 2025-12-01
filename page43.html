@@ -21,7 +21,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One:400&display=swap"></noscript>
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Golos+Text:400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Golos+Text:400,500,600,700,800,900&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=qghpZe"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=qghpZe" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=0svnHn"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=0svnHn" type="text/css">
 
   
   
@@ -29,7 +29,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu1 cid-uLzfD7Y04p" once="menu" id="menu01-8m">
+  <section data-bs-version="5.1" class="menu menu1 cid-uLzfD7Y04p" once="menu" id="menu01-8z">
 	
 
 	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -67,7 +67,7 @@
 	</nav>
 </section>
 
-<section class="mbr-section article content1 cid-v49G0kiOaP" id="custom-html-8y">
+<section class="mbr-section article content1 cid-v49JaMRMC6" id="custom-html-90">
 
      
 
@@ -79,193 +79,7 @@
             </div>
         </div>
     </div>
-</section><meta charset="UTF-8" class="cid-v49G0kiOaP" id="custom-html-8y" data-rv-view="6264"><meta name="viewport" content="width=device-width, initial-scale=1.0" class="cid-v49G0kiOaP" id="custom-html-8y" data-rv-view="6264"><style class="cid-v49G0kiOaP" id="custom-html-8y" data-rv-view="6264">
-    .madizm-player {
-      max-width: 600px;
-      margin: 40px auto;
-      background: #111;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-    }
-    .player-header {
-      background: #222;
-      padding: 20px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    .track-info {
-      padding: 15px 20px;
-      background: #1a1a1a;
-      font-size: 18px;
-    }
-    .controls {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      padding: 20px;
-    }
-    button {
-      background: #333;
-      border: none;
-      color: #fff;
-      font-size: 24px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-    button:hover { background: #555; }
-    .progress-container {
-      flex-grow: 1;
-      background: #333;
-      height: 8px;
-      border-radius: 4px;
-      overflow: hidden;
-      cursor: pointer;
-    }
-    .progress-bar {
-      width: 0%;
-      height: 100%;
-      background: #00bfff;
-    }
-    .playlist {
-      max-height: 300px;
-      overflow-y: auto;
-      background: #1a1a1a;
-    }
-    .playlist-item {
-      padding: 12px 20px;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-    .playlist-item:hover, .playlist-item.active {
-      background: #333;
-    }
-  </style><div class="madizm-player cid-v49G0kiOaP" id="custom-html-8y" data-rv-view="6264">
-  <div class="player-header">Madizm – Prince Backman</div>
-  <div class="track-info" id="trackTitle">Click a song to start</div>
-  
-  <div class="controls">
-    <button id="prevBtn">↞</button>
-    <button id="playPauseBtn">▶</button>
-    <button id="nextBtn">↠</button>
-    <div class="progress-container" id="progressContainer">
-      <div class="progress-bar" id="progressBar"></div>
-    </div>
-  </div>
-
-  <div class="playlist" id="playlist">
-    <!-- Tracks will be auto-populated by JavaScript below -->
-  </div>
-</div><audio id="custom-html-8y" preload="metadata" class="cid-v49G0kiOaP" data-rv-view="6264"></audio><script class="cid-v49G0kiOaP" id="custom-html-8y" data-rv-view="6264">
-// Corrected list of tracks from the Internet Archive "Madizm" release
-const tracks = [
-  {title: "Dreams Are Life Behind",     src: "https://archive.org/download/Madizm/Dreams%20Are%20Lift%20Behind%20.mp3"},
-  {title: "Feel So New",                src: "https://archive.org/download/Madizm/Feel%20So%20New.mp3"},
-  {title: "Hardcore",                   src: "https://archive.org/download/Madizm/Hardcore.mp3"},
-  {title: "He So Fly ReMix",            src: "https://archive.org/download/Madizm/He%20So%20Fly%20ReMix.mp3"},
-  {title: "He So Fly Second Take",      src: "https://archive.org/download/Madizm/He%20So%20Fly%20Second%20Take.mp3"},
-  {title: "He’s So Fly",                src: "https://archive.org/download/Madizm/He%E2%80%99s%20So%20Fly.mp3"},
-  {title: "Ladies Don't Love Me",       src: "https://archive.org/download/Madizm/Ladies%20Don%E2%80%99t%20LoVe%20Me%20kdnice.mp3"},
-  {title: "Madizm",                     src: "https://archive.org/download/Madizm/Madizm.mp3"},
-  {title: "Oh I",                       src: "https://archive.org/download/Madizm/Oh%20I%20.mp3"},
-  {title: "Old School New",             src: "https://archive.org/download/Madizm/Old%20School%20New.mp3"},
-  {title: "Whoa",                       src: "https://archive.org/download/Madizm/Whoa.mp3"}
-];
-
-const audio = document.getElementById('audio');
-const playlist = document.getElementById('playlist');
-const trackTitle = document.getElementById('trackTitle');
-const playPauseBtn = document.getElementById('playPauseBtn');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-const progressContainer = document.getElementById('progressContainer');
-const progressBar = document.getElementById('progressBar');
-
-let currentTrack = 0;
-let isPlaying = false;
-
-// Populate playlist
-tracks.forEach((track, index) => {
-  const item = document.createElement('div');
-  item.classList.add('playlist-item');
-  item.textContent = track.title;
-  item.addEventListener('click', () => {
-    currentTrack = index;
-    loadTrack(currentTrack);
-    playTrack();
-  });
-  playlist.appendChild(item);
-});
-
-const playlistItems = document.querySelectorAll('.playlist-item');
-
-function loadTrack(index) {
-  audio.src = tracks[index].src;
-  trackTitle.textContent = tracks[index].title;
-  playlistItems.forEach((item, i) => {
-    item.classList.toggle('active', i === index);
-  });
-  audio.load();
-}
-
-function playTrack() {
-  audio.play();
-  playPauseBtn.textContent = '❚❚';
-  isPlaying = true;
-}
-
-function pauseTrack() {
-  audio.pause();
-  playPauseBtn.textContent = '▶';
-  isPlaying = false;
-}
-
-playPauseBtn.addEventListener('click', () => {
-  isPlaying ? pauseTrack() : playTrack();
-});
-
-nextBtn.addEventListener('click', () => {
-  currentTrack = (currentTrack + 1) % tracks.length;
-  loadTrack(currentTrack);
-  playTrack();
-});
-
-prevBtn.addEventListener('click', () => {
-  currentTrack = (currentTrack - 1 + tracks.length) % tracks.length;
-  loadTrack(currentTrack);
-  playTrack();
-});
-
-// Progress bar
-audio.addEventListener('timeupdate', () => {
-  if (audio.duration) {
-    const percent = (audio.currentTime / audio.duration) * 100;
-    progressBar.style.width = percent + '%';
-  }
-});
-
-progressContainer.addEventListener('click', (e) => {
-  const width = progressContainer.clientWidth;
-  const clickX = e.offsetX;
-  if (audio.duration) {
-    audio.currentTime = (clickX / width) * audio.duration;
-  }
-});
-
-// Auto-play next track
-audio.addEventListener('ended', () => {
-  nextBtn.click();
-});
-
-// Load first track on start
-loadTrack(0);
-</script><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3140116" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/drag-drop-website-builder.html">Drag & Drop Website Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><iframe src="https://archive.org/embed/Madizm" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="" class="cid-v49JaMRMC6" id="custom-html-90" data-rv-view="7278"></iframe><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3140116" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/no-code-website-builder.html">No Code Website Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
